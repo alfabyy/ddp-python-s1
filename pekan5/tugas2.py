@@ -20,7 +20,10 @@ match luas_bangun_datar:
         alas = int(input("Masukkan alas segitiga : "))
         tinggi = int(input("Masukkan tinggi segitiga : "))
         hasil = 0.5 * alas * tinggi
-        print("Luas segitiga adalah : ", hasil)    
+        print("Luas segitiga adalah : ", hasil)
+
+    case _:
+        print("Kode yang anda masukkan tidak valid.")    
     
 
         
