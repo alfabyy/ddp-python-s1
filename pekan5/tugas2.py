@@ -1,3 +1,8 @@
+ket = ["1 adalah persegi" , "2 adalah lingkaran" , "3 adalah segitiga"]
+
+for k in ket :
+    print(k)
+
 luas_bangun_datar = int(input("Masukkan kode untuk menghitung luas bangun datar : "))
 
 match luas_bangun_datar:
