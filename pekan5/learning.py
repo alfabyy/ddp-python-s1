@@ -4,7 +4,8 @@ Sistem Penghitung Berat Badan Ideal
 
 Pilih Jenis kelamin :
 1 = Laki-laki
-2 = Perempuan             
+2 = Perempuan    
+=====================================================================                       
 """)
 
 # bb = int(input("Masukkan Berat Badan : "))
