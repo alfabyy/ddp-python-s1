@@ -6,9 +6,13 @@ numbers = [
 
 a = 0
 
-while a < len(numbers):
-    if numbers[a] <= 553 and numbers[a] % 2 != 0:
+while True:
+    if numbers[a] % 2 == 1 :
         print(numbers[a])
-    a += 1
+
+    a+=1
+
+    if numbers[a] == 81:
+        break
 
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
