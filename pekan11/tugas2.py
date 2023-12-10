@@ -3,13 +3,16 @@ import module2
 print("""
 Keterangan Jenis Aritmatika
 
-1. Tambah = +
-2. Kurang = -
-3. Kali = *
-4. Bagi = /
-5. Pangkat = **
-6. Modulus = %
-7. Pembagian Bulat = //
+1 = Tambah (+)
+2 = Kurang (-)
+3 = Kali (*)
+4 = Bagi (/)
+5 = Pangkat (**)
+6 = Modulus (%)
+7 = Pembagian Bulat (//)
+8 = Sin (sin)
+9 = Cos (cos)
+10 = Tan (tan)
 """)
 
 pilih = int(input("Masukkan Jenis Aritmatika : "))
